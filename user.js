@@ -16,7 +16,7 @@ if (localStorage.getItem("blocked") !== null) {
 }
 
 
-"dade3a08d958d99324bd10b62d77209b90fce3b38a1b50d46c01de30abb51a78"!==urlParams.get("pass")&&null===localStorage.getItem("foreignAuth")&&(/\bCrOS\b/.test(navigator.userAgent)||window.location.replace(document.location.origin+"/userBlock")),"dade3a08d958d99324bd10b62d77209b90fce3b38a1b50d46c01de30abb51a78"===urlParams.get("pass")&&(null===localStorage.getItem("foreignAuth")&&localStorage.setItem("foreignAuth","true"),window.location.replace(document.location.origin));
+//"dade3a08d958d99324bd10b62d77209b90fce3b38a1b50d46c01de30abb51a78"!==urlParams.get("pass")&&null===localStorage.getItem("foreignAuth")&&(/\bCrOS\b/.test(navigator.userAgent)||window.location.replace(document.location.origin+"/userBlock")),"dade3a08d958d99324bd10b62d77209b90fce3b38a1b50d46c01de30abb51a78"===urlParams.get("pass")&&(null===localStorage.getItem("foreignAuth")&&localStorage.setItem("foreignAuth","true"),window.location.replace(document.location.origin));
 
 (function(c,l,a,r,i,t,y){
     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
